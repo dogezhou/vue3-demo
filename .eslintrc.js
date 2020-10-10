@@ -7,10 +7,14 @@ module.exports = {
         'eslint:recommended',
         'prettier',
         'prettier/vue',
+        'prettier/@typescript-eslint',
     ],
     rules: {
         // override/add rules settings here, such as:
         // 'vue/no-unused-vars': 'error'
         'prettier/prettier': ['warn'],
+    },
+    parserOptions: {
+        parser: '@typescript-eslint/parser', // Specifies the ESLint parser
     },
 }

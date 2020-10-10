@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
     name: 'HelloWorld',
     props: {
@@ -19,7 +19,8 @@ export default {
     },
     methods: {
         hello() {
-            console.log('hello')
+            const a: string = 'www'
+            console.log('hello', a)
         },
     },
 }
