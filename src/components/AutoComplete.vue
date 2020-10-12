@@ -19,8 +19,16 @@ export default {
     },
     methods: {
         hello() {
-            const a: string = 'www'
-            console.log('hello', a)
+            interface Dog {
+                name: string
+            }
+            const a: Dog = {
+                name: '旺财',
+            }
+            return a.name
+        },
+        wa() {
+            console.log('unit test missed!!')
         },
     },
 }
