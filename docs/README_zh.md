@@ -40,6 +40,7 @@ yarn build
 欢迎您 Fork 项目，提 pull request 来提出你的想法。
 
 ## TODO
+- [x] 支持 sass
 - [x] 添加 linter 并且在 pre-commit 运行 linter
 - [x] 使用 jest 添加单元测试
 - [x] 使用 jest 添加单元测试覆盖率

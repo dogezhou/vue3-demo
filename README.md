@@ -42,6 +42,7 @@ I appreciate all suggestions or PRs which will help build a more convenient Vue3
 Feel free to fork the project and create a pull request with your idea.
 
 ## TODO
+- [x] Add sass support
 - [x] Add lint and run linter at pre-commit
 - [x] Add unit test with jest
 - [x] Add unit test coverage with jest
