@@ -2,7 +2,7 @@
     <AutoComplete placeholder="input here" />
 </template>
 
-<script>
+<script lang="ts">
 import AutoComplete from './components/AutoComplete.vue'
 
 export default {

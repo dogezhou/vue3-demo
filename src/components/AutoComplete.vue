@@ -10,7 +10,7 @@
 
 <script lang="ts">
 export default {
-    name: 'HelloWorld',
+    name: 'AutoComplete',
     props: {
         placeholder: {
             type: String,
